@@ -27,6 +27,7 @@ module.exports = (url, callback) => {
       let screenshot = image.toDataURL();
 
       // Excute callback with new item object
+
       callback({ title, screenshot, url });
 
       // Clean up
